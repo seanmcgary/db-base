@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/seanmcgary/db-base/issues"
   },
-  "homepage": "https://github.com/seanmcgary/db-base#readme"
+  "homepage": "https://github.com/seanmcgary/db-base#readme",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "lodash": "^3.10.1",
+    "sequelize": "^3.12.2",
+    "umzug": "^1.6.0"
+  }
 }
