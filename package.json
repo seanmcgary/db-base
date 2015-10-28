@@ -19,6 +19,7 @@
   "dependencies": {
     "bluebird": "^2.10.2",
     "lodash": "^3.10.1",
+    "logwrangler": "^0.1.5",
     "pg": "^4.4.3",
     "pg-hstore": "^2.3.2",
     "pg-native": "^1.9.0",
