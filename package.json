@@ -1,6 +1,6 @@
 {
   "name": "db-base",
-  "version": "1.0.0-beta3",
+  "version": "1.0.0",
   "description": "DB base layer",
   "main": "index.js",
   "scripts": {
