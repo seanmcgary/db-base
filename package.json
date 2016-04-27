@@ -1,6 +1,6 @@
 {
   "name": "db-base",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "DB base layer",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "bluebird": "^2.10.2",
     "lodash": "^3.10.1",
     "logwrangler": "^0.1.5",
-    "pg": "^4.4.3",
+    "pg": "^4.5.5",
     "pg-hstore": "^2.3.2",
     "pg-native": "^1.9.0",
     "sequelize": "^3.12.2",
