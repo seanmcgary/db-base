@@ -3,7 +3,8 @@ var path = require('path');
 
 var db = DB({
 	database: 'some-database',
-	modelPath: path.resolve(__dirname + '/models')
+	modelPath: path.resolve(__dirname + '/models'),
+	migrationsPath: path.resolve(__dirname + '/migrations')
 }, function(requireModel, sequelize, db, cb){
 
 	var TestModel = requireModel('testModel');
@@ -11,4 +12,3 @@ var db = DB({
 		TestModel: TestModel
 	});
 });
-console.log(db);

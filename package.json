@@ -1,6 +1,6 @@
 {
   "name": "db-base",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "DB base layer",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/seanmcgary/db-base#readme",
   "dependencies": {
-    "bluebird": "^2.10.2",
-    "lodash": "^3.10.1",
-    "logwrangler": "^0.1.5",
+    "bluebird": "^3.4.0",
+    "lodash": "^4.13.1",
+    "logwrangler": "^1.0.0",
     "pg": "^4.5.5",
     "pg-hstore": "^2.3.2",
     "pg-native": "^1.9.0",
