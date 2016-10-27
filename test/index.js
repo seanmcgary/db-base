@@ -8,6 +8,15 @@ var db = DB({
 }, function(requireModel, sequelize, db, cb){
 
 	var TestModel = requireModel('testModel');
+	TestModel.findAllPaginated({
+		limit: 1
+	})
+	.spread(() => {
+
+	})
+	.catch((err) => {
+		debugger;
+	})
 	cb({
 		TestModel: TestModel
 	});
