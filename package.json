@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/seanmcgary/db-base#readme",
   "dependencies": {
-    "bluebird": "^3.4.0",
-    "lodash": "^4.13.1",
+    "bluebird": "^3.4.6",
+    "lodash": "^4.16.4",
     "logwrangler": "^2.0.0",
-    "pg": "^5.1.0",
+    "pg": "^6.1.0",
     "pg-hstore": "^2.3.2",
     "pg-native": "^1.10.0",
-    "sequelize": "^3.23.3",
+    "sequelize": "^3.24.6",
     "umzug": "^1.11.0"
   }
 }
